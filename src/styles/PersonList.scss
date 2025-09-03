@@ -1,0 +1,24 @@
+.person-list-container {
+    display: flex;
+    width: 400px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-top: 3rem;
+}
+
+.add-button {
+    width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #59edc1;
+  color: #34355b;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2rem;
+
+}

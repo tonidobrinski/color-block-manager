@@ -1,0 +1,41 @@
+.person-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+
+  h3 {
+    margin: 0 0 0.5rem 0;
+  }
+
+  button {
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.75rem;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+
+  .blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+.colorBlock {
+    display: flex;
+}
+
+.card-container {
+    display: flex;
+    width: 600px;
+}
