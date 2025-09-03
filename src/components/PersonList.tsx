@@ -2,7 +2,6 @@ import { useState } from "react";
 import { usePersons } from "../hooks/usePersons";
 import PersonCard from "../components/PersonCard";
 import TextField from "@mui/material/TextField";
-import DivaLogo from "../assets/icons/diva-e_logo.svg?react"
 import "../styles/PersonList.scss";
 
 const PersonList = () => {
@@ -25,7 +24,6 @@ const PersonList = () => {
 
   return (
     <div className="person-list-container">
-        <div><DivaLogo/></div>
       <div className="input-field">
         <TextField
           label="Name of person"

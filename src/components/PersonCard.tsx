@@ -33,7 +33,9 @@ const PersonCard = (props: Props) => {
               />
             ))}
           </div>
+          <div className="color-block__name">
           <Typography variant="h6">{props.person.name}</Typography>
+          </div>
         </CardContent>
       </Card>
     </div>

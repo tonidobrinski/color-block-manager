@@ -1,17 +1,15 @@
 .person-list-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 2rem;
 }
 
 .input-field {
-  flex: 1;
   padding: 0.5rem;
+  padding-left: 2rem;
   border: 1px solid;
   border-radius: 4px;
-  margin-top: 3rem;
-  width: 400px;
+  padding-top: 3rem;
+  width: 300px;
 }
 
 .add-button {
@@ -24,4 +22,8 @@
   cursor: pointer;
   margin-top: 2rem;
 
+}
+
+input:-internal-autofill-selected {
+  background-color: none !important;
 }
