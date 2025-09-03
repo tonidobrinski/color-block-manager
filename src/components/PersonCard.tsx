@@ -2,6 +2,7 @@ import { Person, Color } from "../types/types";
 import ColorBlock from "../components/ColorBlock";
 import { Card, CardContent, Typography } from "@mui/material";
 import UserPlusIcon from "../assets/icons/user-plus.svg?react";
+import "../styles/PersonCard.scss"
 
 interface Props {
   person: Person;
@@ -16,7 +17,6 @@ const PersonCard = (props: Props) => {
     <div className="card-container">
       <Card sx={{ mb: 3 }}>
         <CardContent className="card-container">
-          <Typography variant="h6">{props.person.name}</Typography>
           <button className="icon-button" onClick={() => props.onAddBlock(props.person.id)}>
             <UserPlusIcon />
           </button>
@@ -33,6 +33,7 @@ const PersonCard = (props: Props) => {
               />
             ))}
           </div>
+          <Typography variant="h6">{props.person.name}</Typography>
         </CardContent>
       </Card>
     </div>

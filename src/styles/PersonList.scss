@@ -1,6 +1,8 @@
 .person-list-container {
     display: flex;
-    width: 400px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .input-field {
@@ -9,10 +11,11 @@
   border: 1px solid;
   border-radius: 4px;
   margin-top: 3rem;
+  width: 400px;
 }
 
 .add-button {
-    width: 100%;
+  width: 100%;
   padding: 0.5rem 1rem;
   border: none;
   background-color: #59edc1;
